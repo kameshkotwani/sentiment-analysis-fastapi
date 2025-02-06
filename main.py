@@ -9,7 +9,7 @@ from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
 import numpy as np
 from config import MODEL_NAME,VECTORIZER_NAME
-from test_app import ModelLoader
+from load_model import ModelLoader
 print("Loading model and vectorizer...")
 loader = ModelLoader(
     model_name=MODEL_NAME,
