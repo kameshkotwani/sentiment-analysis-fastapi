@@ -1,1 +1,4 @@
 test_app.py
+login-key.pem
+.idea/
+__pycache__/
